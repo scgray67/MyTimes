@@ -34,3 +34,34 @@ h4 {
 }
 
 /* End Header with Logo and Navigation */
+
+/* Begin Main Container */
+
+div {
+  border: 1px solid black;
+}
+
+#maincontainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column.large {
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+}
+
+.column.medium {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.column.small {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* End Main Container */
