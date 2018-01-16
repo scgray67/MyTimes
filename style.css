@@ -158,3 +158,46 @@ li {
 }
 
 /* End Main Container */
+
+/* Begin Footer */
+
+footer {
+  background-color: MediumAquaMarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+  flex-direction: column;
+}
+
+#footerlogo {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  padding-right: 30px;
+  display: inline-block;
+}
+
+#footernav {
+  padding-left: 20px;
+  display: inline-block;
+}
+
+#footernav span a{
+  padding: 20px 10px;
+  color: black;
+  display: inline-block;
+}
+
+#copyright {
+  display: block;
+}
+
+/* End Footer */
