@@ -20,6 +20,8 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  background-color: white;
+  position: fixed;
 }
 
 #logo {
@@ -45,6 +47,7 @@ h4 {
 #maincontainer {
   display: flex;
   justify-content: space-around;
+  padding-top: 150px;
 }
 
 .column.large {
