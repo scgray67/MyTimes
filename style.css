@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-div {
+/*div {
   border: 1px solid black;
-}
+}*/
 
 /* Begin Header with Logo and Navigation */
 
@@ -50,7 +50,8 @@ h4 {
 .column.large {
   width: 630px;
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .column.medium {
@@ -84,10 +85,18 @@ h4 {
   color: white;
 }
 
+.story.three {
+  height: 300px;
+  width: 300px;
+  order: 1;
+}
+
 .story.four {
   background-image:url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png');
   display: flex;
   height: 300px;
+  width: 300px;
+  order: 3;
 }
 
 .headlinefour {
@@ -97,10 +106,18 @@ h4 {
   text-align: center;
 }
 
+.story.five {
+  height: 300px;
+  width: 300px;
+  order: 2;
+}
+
 .story.six {
   background-image:url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png');
   display: flex;
   height: 300px;
+  width: 300px;
+  order: 4;
 }
 
 .headlinesix {
