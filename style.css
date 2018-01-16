@@ -42,8 +42,6 @@ h4 {
 
 /* End Header with Logo and Navigation */
 
-/* Begin Main Container */
-
 #maincontainer {
   display: flex;
   justify-content: space-around;
@@ -141,6 +139,22 @@ h4 {
   font-size: 30px;
   color: white;
   text-align: center;
+}
+
+#newsbites {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+li {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  list-style: none;
+  padding: 10px 10px;
+  border-bottom: 1px solid black;
 }
 
 /* End Main Container */
