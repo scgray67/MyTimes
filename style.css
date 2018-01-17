@@ -175,7 +175,7 @@ footer {
   flex-direction: column;
 }
 
-#footerlogo {
+.footerlogo {
   font-family: Georgia;
   font-size: 16px;
   font-weight: bold;
@@ -185,19 +185,14 @@ footer {
   display: inline-block;
 }
 
-#footernav {
-  padding-left: 20px;
+.footernav {
   display: inline-block;
+  padding-left: 25px;
 }
 
-#footernav span a{
-  padding: 20px 10px;
+.footernav span a {
   color: black;
-  display: inline-block;
-}
-
-#copyright {
-  display: block;
+  padding-left: 15px;
 }
 
 /* End Footer */
